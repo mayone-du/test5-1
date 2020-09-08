@@ -1,0 +1,543 @@
+body{
+  color: #484848;
+}
+
+.h1{
+  color: #333333;
+  font-size: 55px;
+  position: relative;
+}
+
+
+.h1::before{
+  content: "";
+  width: 65px;
+  height: 2px;
+  background: #484848;
+  position: absolute;
+  left: 50%;
+  top: -20px;
+  transform: translateX(-50%);
+}
+
+
+
+
+.form-h1{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/* ナビバー */
+.nav-link{
+  color: #333;
+}
+
+.nav-link:hover{
+  color: #333;
+}
+
+.active{
+  color: #008489;
+  list-style: none;
+}
+
+.active a,
+.navbar-brand,
+.navbar-brand:hover{
+  color: #008489;
+}
+
+.nav-item:hover .nav-link{
+  border-bottom: 1px solid #333;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding: 0;
+}
+
+
+.h-btn{
+  border-radius: 10px;
+}
+
+/* ヘッダー */
+
+.header-cover{
+  background: url(images/bg-img.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 750px;
+  position: relative;
+}
+
+.h-form{
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  width: 30%;
+  border-radius: 5px;
+}
+
+
+/* メイン */
+
+.host-img{
+  max-width: 100%;
+  height: auto;
+}
+
+.sp-form{
+  display: none;
+}
+
+/* チェックマーク */
+
+.tyeck-ul{
+  list-style-type: none;
+}
+
+
+
+.tyeck-mark{
+  position: relative;
+}
+
+.tyeck-mark::before{
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -30px;
+  -webkit-transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  transform: rotate(50deg);
+  width: 8px;
+  height: 16px;
+  border-right: 1px solid #008389;
+  border-bottom: 1px solid #008389;
+}
+
+
+/* 丸いチェック */
+
+.tyeck-mark-boll::before,
+.tyeck-mark-boll::after{
+  position: absolute;
+  content: "";
+}
+
+
+.tyeck-mark-boll:before{
+	width:50px;
+	height:50px;
+	border-radius:25px;
+	background:#ffffff;
+	border:2px solid #484848;
+  left:15px;
+  top:-70px;
+}
+.tyeck-mark-boll:after{
+	border-left:3px solid #484848;
+	border-bottom:3px solid #484848;
+	width:20px;
+	height:10px;
+	-webkit-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+	left:30px;
+	top:-50px;
+}
+
+
+
+/* ホスト写真 */
+
+blockquote {
+  position: relative;
+}
+
+blockquote:before{
+  display: inline-block;
+  position: absolute;
+  top: -50px;
+  left: 0px;
+  content: "\f10d";
+  font-family: FontAwesome;
+  color: #FDB32B;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+
+/* question-list */
+
+.col-a{
+  font-size: 17px;
+  font-weight: normal;
+}
+
+
+
+
+
+
+/* リンクカード */
+.link-card{
+  display: block;
+}
+
+
+.link-card-img{
+  width: 100%;
+}
+
+.link-card-title{
+  font-weight: 600;
+  color: #484848;
+  font-size: 16px;
+  margin: 10px 0;
+
+}
+
+.link-card:hover{
+  text-decoration: none;
+}
+
+.link-card-text{
+  font-size: 14px;
+  font-weight: 300;
+  color: #484848;
+}
+
+.link-card-a{
+  color: #008389;
+  font-size: 14px;
+}
+
+.sp-card-link{
+  display: none;
+}
+
+
+
+
+
+
+/* メイン */
+
+.main-cover{
+  background: url(images/bg-img2.jpg);
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+
+.main-cover-title{
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  font-size: 60px;
+}
+
+
+.main-cover-button{
+  position: absolute;
+  left: 100px;
+  top: 200px;
+}
+
+
+.col-a{
+  color: #008389;
+}
+
+.col-a:hover{
+  color: #008389;
+  text-decoration-color: #008389;
+}
+
+
+
+
+
+
+
+
+
+/* フッター */
+
+.f-l-title{
+  font-size: 12px;
+  font-weight: 700;
+  color: #222222;
+}
+
+
+.footer{
+  background-color: #f7f7f7;
+}
+
+
+.footer-list ul li{
+  list-style-type: none;
+  font-size: 14px;
+  padding: 12px 0;
+}
+
+
+.footer-list ul li a{
+  color: #484848;
+  font-weight: 400;
+}
+
+
+.footer-list ul{
+  padding: 0;
+}
+
+
+.f-space{
+  padding: 0 6px;
+}
+
+.f-a:hover{
+  color: #484848;
+  text-decoration-color: #484848;
+}
+
+.f-a{
+  color: #484848;
+}
+
+.f-text{
+  font-size: 14px;
+  color: #484848;
+}
+
+
+.footer .container{
+  padding: 0;
+}
+
+
+/* フッターのロゴ */
+
+.f-a-last{
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration-line: underline;
+}
+
+.f-a-last:hover{
+  color: #484848;
+}
+
+
+.f-a-logo{
+  color: black;
+  font-size: 18px;
+  
+}
+
+.f-a-logo:hover{
+  color: #484848;
+  text-decoration-line: none;
+}
+
+
+
+
+
+.sp-h-h1{
+  display: none;
+}
+
+.sec-1-h4{
+  margin-top: 48px;
+}
+
+/* ハンバーガーメニュー */
+
+#checkbox{
+  display: none;
+}
+
+
+
+
+
+
+.sp-checked{
+  display: none;
+}
+
+
+
+.sp-host{
+  display: none;
+}
+
+
+
+/* レスポンシブデザイン */
+@media (max-width: 960px){
+  .ml-5, .mr-5, .offset-1{
+    margin-left: 0!important;
+    margin-right: 0!important;
+  }
+
+  .header-cover{
+    background: url(images/bg-img.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 200px;
+    position: relative;
+  }
+
+  .sp-h-h1{
+    font-size: 30px;
+    position: absolute;
+    padding: 0 20px;
+    top: 100px;
+    display: block;
+  }
+
+  .sp-form{
+    display: block;
+  }
+  
+
+  .sp-input{
+    margin-bottom: 16px;
+  }
+
+  .sec-1-h4{
+    margin-top: 0;
+  }
+
+  /* ハンバーガーメニュー */
+  .sp-logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+
+  .sp-checked{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    z-index: 400;
+    position: absolute;
+    top: 0;
+    height: 812px;
+    display: block;
+  }
+
+
+  .sp-list-a{
+    list-style-type: none;
+    padding: 30px;
+  }
+
+
+  .sp-checked{
+    transform: translateY(-1000px);
+    transition: .4s;
+  }
+
+
+  #checkbox:checked ~ .sp-checked{
+    transform: translateY(0);
+    transition: .4s;
+  }
+  /* ハンバーガーメニュー終わり */
+
+
+  .pc-form{
+    display: none;
+  }
+
+
+  .check-mark-ball:before{
+    top: -10px;
+  }
+
+  .check-mark-ball::after{
+    top: 10px;
+  }
+
+  .pc-host{
+    display: none;
+  }
+
+  .sp-host{
+    display: block;
+  }
+
+  .container{
+    margin: auto;
+  }
+
+
+
+
+  blockquote{
+    font-size: 18px;
+  }
+
+
+  blockquote::before{
+    font-size: 20px;
+    top: -30px;
+  }
+
+
+
+
+  .f-l-title{
+    margin-left: 12px;
+  }
+
+  .footer-list ul li{
+    padding: 12px;
+  }
+
+/* card */
+
+  .pc-card{
+    display: none;
+  }
+
+
+  .sp-card-link{
+    margin: 5px 15px;
+    padding: 0;
+    display: block;
+  }
+
+
+  .sp-img{
+    width: 76px;
+    height: 76px;
+    float: left;
+  }
+
+  .sp-card-title{
+    text-decoration: none;
+    color: #484848;
+  }
+
+  .sp-card-text{
+    margin: 0;
+    text-decoration: none;
+    color: #484848;
+  }
+
+
+  .footer{
+    clear: both;
+  }
+}

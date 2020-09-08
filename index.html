@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>課題5-1</title>
+    <script src="https://kit.fontawesome.com/684548cccd.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- ヘッダー -->
+    <header class="mb-5">
+      <div class="header-cover">
+        <div class="sp-h-h1 text-white font-weight-bold">
+          Airbnbホストになって、暮らしをレベルアップ
+        </div>
+        <!-- ナビバーpc -->
+        <nav class="navbar navbar-expand-lg bg-white fixed-top border-bottom pc-host">
+          <a class="navbar-brand" href="#"><i class="fab fa-airbnb fa-2x"></i></a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <div class="active"><div class="border-bottom py-4 mx-3">概要</div></div>
+              </li>
+              <li class="nav-item p-3">
+                <a class="nav-link mt-2" href="index.html">準備</a>
+              </li>
+              <li class="nav-item p-3">
+                <a class="nav-link mt-2" href="#">安全</a>
+              </li>
+              <li class="nav-item p-3">
+                <a class="nav-link mt-2" href="#">マネープラン</a>
+              </li>
+            </ul>
+            <form class="form-inline mr-5">
+              <button class="btn btn-danger h-btn" type="button" name="button">はじめる</button>
+            </form>
+          </div>
+        </nav>
+        <!-- ナビバーsp -->
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox">
+          <i class="fab fa-airbnb text-white fa-2x sp-logo">^</i>
+        </label>
+        <!-- クリック時 -->
+        <div class="sp-checked">
+          <label for="checkbox">
+            <i class="fab fa-airbnb text-danger fa-2x sp-logo">^</i>
+          </label>
+          <div class="sp-list">
+            <ul>
+              <li class="sp-list-a">概要</li>
+              <li class="sp-list-a"><a href="#">準備</a></li>
+              <li class="sp-list-a"><a href="#">安全</a></li>
+              <li class="sp-list-a"><a href="#">マネープラン</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- フォーム -->
+        <div class="container d-md-block d-none pc-form">
+          <div class="bg-white p-4 border-light h-form">
+            <form>
+              <div class="form-group">
+                <div class="form-h1">Airbnbホストになって、暮らしをレベルアップ</div>
+                <label for="formGroupExampleInput">宿泊施設の内容を記入</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="ロケーション">
+              </div>
+              <form>
+                <div class="form-row">
+                  <div class="col">
+                    <select type="text" class="form-control" placeholder="First name">
+                      <option value="">まるまる貸し切り</option>
+                      <option value="">個室</option>
+                      <option value="">シェアルーム</option>
+                    </select>
+                  </div>
+                  <div class="col">
+                    <select type="text" class="form-control" placeholder="Last name">
+                      <option value="">ゲスト１人</option>
+                      <option value="">ゲスト２人</option>
+                      <option value="">ゲスト３人</option>
+                    </select>
+                  </div>
+                </div>
+                <button class="btn btn-danger mt-3 w-100" type="button" name="button">
+                  はじめる
+                </button>
+              </form>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- メイン -->
+    <main>
+      <!-- spフォーム -->
+      <div class="container sp-form">
+        <div class="bg-white border-light">
+          <form>
+            <div class="form-group">
+              <label for="formGroupExampleInput">宿泊施設の内容を記入</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="ロケーション">
+            </div>
+            <form>
+              <div class="form-row sp-input">
+                <div class="col">
+                  <select type="text" class="form-control" placeholder="First name">
+                    <option value="">まるまる貸し切り</option>
+                    <option value="">個室</option>
+                    <option value="">シェアルーム</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <select type="text" class="form-control" placeholder="Last name">
+                    <option value="">ゲスト１人</option>
+                    <option value="">ゲスト２人</option>
+                    <option value="">ゲスト３人</option>
+                  </select>
+                </div>
+              </div>
+              <button class="btn btn-danger mt-3 w-100" type="button" name="button">
+                はじめる
+              </button>
+            </form>
+          </form>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-lg-5 ml-5">
+            <div class="h4 font-weight-bold">
+              Airbnbでホストするこれだけの理由
+            </div>
+            <p class="pt-3">どんなお家やお部屋でも、Airbnbなら簡単かつ安全にシェアでき、世界中の旅好きな仲間とつながれます。
+               予約可能日から料金、ハウスルール、ゲストとの交流程度まで、すべて自分で決めることができます。</p>
+          </div>
+          <div class="col-lg-5 offset-1">
+            <div class="h4 font-weight-bold">困ったときも安心</div>
+            <p class="pt-3">万一に備えるUS$1,000,000の財物補償、US$1,000,000の賠償責任保険が全予約に自動付帯。
+              ホストのみなさまと建物・家財の安全をお守りするため全力で取り組んでいます。</p>
+          </div>
+        </div>
+        <!-- セクション１ -->
+        <div class="row py-5">
+          <div class="h1 col-12 font-weight-bold text-center">3ステップでホスティング</div>
+        </div>
+        <div class="row my-5">
+          <div class="col-lg-3 ml-5">
+            <div class="h4 tyeck-mark-boll font-weight-bolder sec-1-h4">無料でお部屋を掲載</div>
+            <p class="pt-3 pb-5">共有のリビングルームから別荘に至るまで、どんなスペースでも登録料なしで共有しましょう。</p>
+          </div>
+          <div class="col-lg-3 offset-1 mb-5">
+            <div class="h4 tyeck-mark-boll font-weight-bolder mt-5 check-mark-ball">ホスティング方法を設定</div>
+            <p class="pt-3 mb-5">スケジュール、料金、ゲストへの要件をご自身で選択しましょう。 お困りの際にはいつでもサポートいたします。</p>
+          </div>
+          <div class="col-lg-3 offset-1">
+            <div class="h4 tyeck-mark-boll font-weight-bolder mt-5 check-mark-ball">はじめてのゲストが来ます！</div>
+            <p class="py-3">リスティングが掲載されると、条件にかなったゲストから連絡を受けとることができます。 ゲストの到着前に質問があればメッセージを送信できます。</p>
+            <a class="col-a" href="#">ホストをはじめる方法をチェック</a>
+          </div>
+        </div>
+        <!-- ホスト写真 -->
+        <div class="row py-5 pc-host">
+          <div class="col-5 ml-5">
+            <div class="h2 mt-5 pt-1">
+              <blockquote>
+                「ホスト保証」があったからAirbnb参加を決めたといっても過言でないほどで、被害やトラブルがあったときに頼れるサポートがあるのは本当にありがたいですね。
+              </blockquote>
+            </div>
+            <p class="py-3 text-secondary">Dennisさんはロンドンのホスト。自由度の高さに魅力を感じています</p>
+            <a class="border border-dark rounded p-3 text-reset" href="#">ホスト実践例をチェック</a>
+          </div>
+          <div class="col-md-5 offset-1">
+            <a href="#">
+              <img class="host-img" src="images/img3.jpg" alt="">
+            </a>
+          </div>
+        </div>
+        <!-- spホスト -->
+        <div class="row py-5 sp-host">
+          <div class="col-md-5 offset-1">
+            <a href="#">
+              <img class="host-img" src="images/img3.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-5 ml-5">
+            <div class="h2 mt-5 pt-1">
+              <blockquote>
+                「ホスト保証」があったからAirbnb参加を決めたといっても過言でないほどで、被害やトラブルがあったときに頼れるサポートがあるのは本当にありがたいですね。
+              </blockquote>
+            </div>
+            <p class="py-3 text-secondary">Dennisさんはロンドンのホスト。自由度の高さに魅力を感じています</p>
+            <a class="border border-dark rounded p-3 text-reset" href="#">ホスト実践例をチェック</a>
+          </div>
+        </div>
+        <!-- セクション２ -->
+        <div class="row py-5">
+          <div class="col-12 h1 text-center font-weight-bold">万一のときも安心です</div>
+        </div>
+        <div class="row pb-5">
+          <div class="col-lg-5 ml-5 mb-5">
+            <p>大切なお家にお迎えする相手選びは、信頼第一で進めたいですよね。 その思いに応えるため、Airbnbでは宿泊者に求める厳格な要件をホスト自身の手で設定し、
+              滞在前にお互い交流できるシステムを採用しています。 万一のトラブルのときには、Airbnbが全力でサポートします。 
+              建物・家財の被害は「ホスト保証」、賠償責任は「ホスト補償保険」でカバー。ホストのみなさまのあらゆるシチュエーションに対処しています。</p>
+              <a class="col-a" href="#">ホストを守るAirbnbの仕組みをチェック</a>
+          </div>
+          <div class="col-lg-5 offset-1">
+            <ul class="tyeck-ul">
+              <li class="tyeck-mark py-2">予約前に政府発行の身分証明書を求める権限</li>
+              <li class="tyeck-mark py-2">ハウスルールに同意しないと泊まれない</li>
+              <li class="tyeck-mark py-2">過去の宿泊のレビューもばっちり読める</li>
+              <li class="tyeck-mark py-2">財物損害は¥100,000,000まで無料で補償</li>
+              <li class="tyeck-mark py-2">$1,000,000の賠償責任保険が無料で付帯</li>
+              <li class="tyeck-mark py-2">24時間365日対応グローバルカスタマーサポート</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col-11 ml-lg-5">
+            <img class="host-img" src="images/img4.jpg" alt="">
+          </div>
+        </div>
+        <!-- セクション３ -->
+        <div class="row py-5">
+          <div class="col-12">
+            <div class="h1 text-center font-weight-bold">シンプルな決済</div>
+          </div>
+        </div>
+        <div class="row pb-5">
+          <div class="col-lg-3 ml-5 mb-5">
+            <div class="h4 mb-3 font-weight-bold">料金設定は完全に自由</div>
+            <p>料金は常に自由に選択できます。 迷ったときには、 域内需要に合わせて設定できるツールがあります。</p>
+          </div>
+          <div class="col-lg-3 offset-1 mb-5">
+            <div class="h4 mb-3 font-weight-bold">手数料が安い</div>
+            <p>登録に費用は一切かかりません。Airbnbは通常、予約ごとに業界で最低の均一3％をサービス料としていただいております。</p>
+          </div>
+          <div class="col-lg-3 offset-1">
+            <div class="h4 mb-3 font-weight-bold">迅速な支払い</div>
+            <p>ゲストのチェックイン後に、Paypal、直接振り込み、またはその他の利用可能な方法で受取金を送金できます。</p>
+            <a class="col-a" href="#">Airbnb収入を得るまでの流れを見る</a>
+          </div>
+        </div>
+        <!-- ホスト写真 -->
+        <div class="row my-5 py-5">
+          <div class="col-lg-5 ml-5">
+            <a href="#">
+              <img class="host-img" src="images/img5.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-5 offset-1 mt-5 pt-5">
+            <div class="h2">
+              <blockquote>
+                ホスト収入でキッチンリフォーム。お家をいろいろアップグレードしました。
+              </blockquote>
+            </div>
+            <p class="py-3 text-secondary">Tessaさんはロンドン在住。ホストになって経済的なゆとりができました</p>
+            <a class="border border-dark rounded p-3 text-reset" href="#">ホスト実践例をチェック</a>
+          </div>
+        </div>
+        <!-- セクション４ -->
+        <div class="row mb-5 pb-5">
+          <div class="h1 col-12 text-center font-weight-bold">夢を共有する仲間が世界中に</div>
+        </div>
+        <div class="row my-5 pt-5">
+          <div class="h1 col-12 text-center font-weight-bold mt-5">Airbnbについて</div>
+        </div>
+        <div class="row mb-5 pb-5">
+          <div class="col-lg-5 ml-5 mb-5">
+            <div class="h4 font-weight-bold mb-3">
+              Airbnbとは？
+            </div>
+            <p>Airbnbは世界中の宿泊先や体験と人々をつなぎます。
+              ホストたちが原動力となるコミュニティが、地元のように旅するユニークな機会をゲストに提供しています。</p>
+          </div>
+          <div class="col-lg-5 offset-1">
+            <div class="h4 font-weight-bold mb-3">ホスティングとは？</div>
+            <p>空いているお部屋やお家、得意分野があるなら、世界中の仲間とシェアして暮らしをステップアップできます。
+              掲載できるのはお部屋や体験です。掛け持ちもOK。 無理のないペースでできます。</p>
+            <a class="col-a" href="#">体験ホスティングの詳細はこちら</a>
+          </div>
+        </div>
+        <!-- セクション５ -->
+        <div class="row my-5 pt-5">
+          <div class="col-12 h1 text-center font-weight-bold">よくある質問</div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-5 ml-5">
+            <div class="link-list border-bottom py-3">
+              <a class="col-a" href="#">Airbnbホストになれるのはどんな人？</a>
+            </div>
+            <div class="link-list border-bottom py-3">
+              <a class="col-a" href="#">予約前にゲストに求められる要件は？</a>
+            </div>
+            <div class="link-list border-bottom py-3">
+              <a class="col-a" href="#">お部屋の掲載料はいくら？</a>
+            </div>
+          </div>
+          <div class="col-lg-5 offset-1">
+            <div class="link-list border-bottom py-3">
+              <a class="col-a" href="#">家財破損があった場合、どのような補償がありますか？</a>
+            </div>
+            <div class="link-list border-bottom py-3">
+              <a class="col-a" href="#">リスティングの料金を選ぶには？</a>
+            </div>
+            <div class="link-list border-bottom py-3">
+              <a class="col-a" href="#">料金設定の支援ツールはありますか？</a>
+            </div>
+          </div>
+        </div>
+        <!-- セクション６ -->
+        <!-- pc -->
+        <div class="pc-card">
+          <div class="row py-3">
+            <div class="col-10 ml-5">ホスティングの詳細はこちら</div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 ml-5">
+              <a class="link-card" href="#">
+                <img class="link-card-img rounded" src="images/link1.jpg" alt="">
+                <p class="link-card-title">初期設定</p>
+                <p class="link-card-text">ホスティング入門ガイド</p>
+                <p class="link-card-a">もっと詳しく</p>
+              </a>
+            </div>
+            <div class="col-lg-3 offset-1">
+              <a class="link-card" href="#">
+                <img class="link-card-img rounded" src="images/link2.jpg" alt="">
+                <p class="link-card-title">安全</p>
+                <p class="link-card-text">ホストを守るAirbnbの仕組みをチェック</p>
+                <p class="link-card-a">もっと詳しく</p>
+              </a>
+            </div>
+            <div class="col-lg-3 offset-1">
+              <a class="link-card" href="#">
+                <img class="link-card-img rounded" src="images/link3.jpg" alt="">
+                <p class="link-card-title">マネープランとは</p>
+                <p class="link-card-text">airbnbで収益を得るには</p>
+                <p class="link-card-a">もっと詳しく</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- sp -->
+        <div class="sp-card">
+          <div class="row">
+            <div class="col-lg-12 sp-card-link border">
+              <a href="#">
+                <img class="sp-img" src="images/link1.jpg" alt="">
+                <p class="sp-card-title">初期設定</p>
+                <p class="sp-card-text">ホスティング入門ガイド</p>
+              </a>
+            </div>
+            <div class="col-lg-12 sp-card-link border">
+              <img class="sp-img" src="images/link1.jpg" alt="">
+              <p class="sp-card-title">初期設定</p>
+              <p class="sp-card-text">ホスティング入門ガイド</p>
+            </div>
+            <div class="col-lg-12 sp-card-link border">
+              <img class="sp-img" src="images/link1.jpg" alt="">
+              <p class="sp-card-title">初期設定</p>
+              <p class="sp-card-text">ホスティング入門ガイド</p>
+            </div>
+          </div>
+        </div>
+        <div class="row my-5 py-3">
+          <div class="col-12 main-cover">
+            <div class="main-cover-title text-white font-weight-bold">収益化してみますか？</div>
+            <div class="main-cover-button btn bg-white">はじめる</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- フッター -->
+    <footer class="footer border-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 border-bottom">
+            <div class="f-l-title mt-5">
+              企業情報
+            </div>
+            <div class="footer-list">
+              <ul>
+                <li><a href="#">Airbnbのご利用方法</a></li>
+                <li><a href="#">ニュースルーム</a></li>
+                <li><a href="#">Airbnb Plus</a></li>
+                <li><a href="#">Airbnb Luxe</a></li>
+                <li><a href="#">HotelTonight</a></li>
+                <li><a href="#">Airbnbビジネスプログラム</a></li>
+                <li><a href="#">オリンピック</a></li>
+                <li><a href="#">採用情報</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 border-bottom">
+            <div class="f-l-title mt-5">
+              コミュニティ
+            </div>
+            <div class="footer-list">
+              <ul>
+                <li><a href="#">ダイバーシティ＆ビロンギング</a></li>
+                <li><a href="#">アクセシビリティ対応</a></li>
+                <li><a href="#">Airbnbアソシエイト</a></li>
+                <li><a href="#">お友達を招待</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 border-bottom">
+            <div class="f-l-title mt-5">
+              ホスト
+            </div>
+            <div class="footer-list">
+              <ul>
+                <li><a href="#">お部屋を掲載</a></li>
+                <li><a href="#">オンライン体験をホストする</a></li>
+                <li><a href="#">体験をホストする</a></li>
+                <li><a href="#">CEOブライアン・チェスキーからのメッセージ</a></li>
+                <li><a href="#">責任あるホスティング</a></li>
+                <li><a href="#">オープンホーム</a></li>
+                <li><a href="#">リソースセンター</a></li>
+                <li><a href="#">コミュニティセンター</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 border-bottom">
+            <div class="f-l-title mt-5">
+              サポート
+            </div>
+            <div class="footer-list">
+              <ul>
+                <li><a href="#">新型コロナウイルスに関する最新情報</a></li>
+                <li><a href="#">ヘルプセンター</a></li>
+                <li><a href="#">キャンセルオプション</a></li>
+                <li><a href="#">近隣コミュニティサポート</a></li>
+                <li><a href="#">信頼＆安全</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3 pb-5">
+          <div class="col-lg-8">
+            <div class="f-text">
+              <a class="f-a" href="#">
+                Airbnb Global Services Limited
+                <br>観光庁長官(01)第S0001号(2018年6月15日-2023年6月14日)
+              </a>
+                <br>© 2020 Airbnb, Inc. All rights reserved
+              <span class="f-space">·</span><a class="f-a" href="#">プライバシー</a>
+              <span class="f-space">·</span><a class="f-a" href="#">利用規約</a>
+              <span class="f-space">·</span><a class="f-a" href="#">サイトマップ</a>
+              <span class="f-space">·</span><a class="f-a" href="#">企業情報</a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="footer-logo">
+              <a class="f-a-last" href="#">
+                <i class="fas fa-globe-americas mr-1 ml-5"></i>日本語 (JP)
+              </a>
+              <a class="f-a-last" href="#">
+                <i class="fas fa-yen-sign mr-1 ml-4"></i>JPY
+              </a>
+              <a class="f-a-logo mr-2 ml-5" href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a class="f-a-logo mx-2" href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a class="f-a-logo mx-2" href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
